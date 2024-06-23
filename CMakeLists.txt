@@ -10,3 +10,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # 添加源文件
 add_executable(udpsocket main.cpp UdpSocket.cpp)
+add_executable(send send.cpp)
